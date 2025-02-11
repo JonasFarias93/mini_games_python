@@ -1,9 +1,9 @@
 import random
 
-biblioteca_secretas = ["banana", "computador", "oceano", "energia", "aventura",
-    "coração", "mistério", "relâmpago", "biblioteca", "viagem",
-    "universo", "silêncio", "maratona", "felicidade", "esmeralda",
-    "harmonia", "foguete", "enigma", "girassol", "labirinto"]
+biblioteca_secretas = "banana", "computador", "oceano", "energia", "aventura",
+"coração", "mistério", "relâmpago", "biblioteca", "viagem",
+"universo", "silêncio", "maratona", "felicidade", "esmeralda",
+"harmonia", "foguete", "enigma", "girassol", "labirinto"
 
 palavra_secreta = random.choice(biblioteca_secretas)
 letra_acertada = ''
